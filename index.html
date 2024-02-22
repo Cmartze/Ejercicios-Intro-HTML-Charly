@@ -2,24 +2,34 @@
 No olvides colocar un comentario por cada cosa que modifiques-->
 
 <!DOCTYPE html>
-<html lang="en"> <!--Ejemplo: Faltaban comillas en el valor del atributo-- >
+<html lang="en"> <!--Ejemplo: Faltaban comillas en el valor del atributo--> <!--se reaizo un cambio aqui  en el comentario debido a que no estaba bien cerrado el comentario-->
 <head>
-<meta charset=”UTF-65”>
-<meta name="viewport" content="Ejercicio HTML - Corrige los errores">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
+      <meta charset="UTF-8"> <!--el tipo estaba equivocado no tenia el mas comun-->
+      <!--aqui el viewport lo pusieron dos veces, el otro era descripcion -->
+      <meta name="viewport" content="width=device-width,initial-scale=1.0">
+      <!--no se si tenia que veer pero cambie el orden baje la descripcion y el viewport lo subi-->
+      <meta name="descripcion" content="Ejercicio HTML - Corrige los errores">
+      <title>World Wide Web</title> <!--el titulo de la pestaña estaba en otro lugar-->
+      <!--le agregue un icono porque no tenia -->
+      <link rel="icon" type="image/x-icon" href="./assets/img/internet-como-un-concepto-puente-para-un-hombre-sentado-con-una-computadora-portatil.png">
 </head>
-<title>World Wide Web</title>
-<body>
-
-<h1>World Wide Web</h1>
-
-<p>
-En informática, la <strong>World Wide Web<strong> (WWW) o red informática mundial comúnmente conocida como la web, es un sistema de distribución de documentos de hipertexto o hipermedios interconectados y accesibles vía Internet. Con un navegador web, un usuario visualiza sitios web compuestos de páginas web que pueden contener texto, imágenes, vídeos u otros contenidos multimedia, y navega a través de esas páginas usando hiperenlaces.
-
-<h2>Historia<h2>
-
-<p>
-La web se desarrolló entre marzo de 1989 y diciembre de 1990 por el inglés Tim Berners-Lee con la ayuda del belga Robert Cailliau mientras trabajaban en el <em>CERN en Ginebra, Suiza, y publicado en 1992.
-</p>
-
-<p>Fuente: <em>Wikipedia</p></em>
+ <body>
+    <main> <!--agregue main -->
+       
+       <article><!--agregue article-->
+         <h1>World Wide Web</h1>
+              <!--en este parafo a srong le fataba una /-->
+              <p>En informática, la <strong>World Wide Web</strong> (WWW) o red informática mundial comúnmente conocida como la web, es un sistema de distribución de documentos de hipertexto o hipermedios interconectados y accesibles vía Internet. Con un navegador web, un usuario visualiza sitios web compuestos de páginas web que pueden contener texto, imágenes, vídeos u otros contenidos multimedia, y navega a través de esas páginas usando hiperenlaces. </p>
+        
+         <h2>Historia</h2> <!--h2 no tenia cierre-->
+             <!--los em no tenian cierre -->
+             <p> La web se desarrolló entre marzo de 1989 y diciembre de 1990 por el inglés Tim Berners-Lee con la ayuda del belga Robert Cailliau mientras trabajaban en el <em> CERN en Ginebra, Suiza, y publicado en 1992.</em> </p>
+        </article>
+        
+        <aside> <!--agregue aside-->
+            <p>Fuente: <em>Wikipedia</em> </p> <!--el cierre de parraf estaba mal ubicado-->
+        </aside>
+    </main>
+ </body> <!--agregue cierres de body y de html-->
+</html>
+<!--acomode el orden de cada una de las partes y agregue word wrap -->
